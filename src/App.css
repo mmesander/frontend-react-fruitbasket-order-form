@@ -1,0 +1,36 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonProduct {
+    height: 25px;
+    width: 25px;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid black
+}
+
+.buttonReset {
+    height: 50px;
+    width: 350px;
+}
+
+.product {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    width: 350px;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+main img {
+    width: 30px;
+    margin-right: 20px;
+}
+

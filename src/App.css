@@ -16,21 +16,86 @@ main {
 .buttonReset {
     height: 50px;
     width: 350px;
+    border-radius: 5px;
 }
 
 .product {
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
-    border-radius: 10px;
+    border: 3px solid black;
+    border-radius: 8px;
     padding: 30px;
     width: 350px;
     align-self: center;
     margin-bottom: 20px;
 }
 
+.product h1 {
+    margin-right: 20px;
+}
+
+.product p {
+    padding-inline: 10px;
+    font-weight: bold;
+}
+
+
 main img {
     width: 30px;
     margin-right: 20px;
 }
 
+button:hover{
+    cursor: pointer;
+}
+
+/*----------------Opdracht 2-----------------*/
+
+label {
+    display: block;
+    margin: 24px 16px;
+}
+
+input {
+    margin: 0 0 0 8px;
+}
+
+fieldset {
+    border: 2px solid #ededed;
+    border-radius: 4px;
+    margin: 16px 0;
+    width: 400px;
+    display: flex;
+}
+
+select {
+    display: inline-block;
+    margin: 12px 0 0 0;
+}
+
+textarea {
+    margin: 8px 0 0 0;
+    display: block;
+}
+
+label {
+    margin-right: 5px;
+}
+
+.radio-buttons {
+    display: inline;
+    margin: 0 7px;
+}
+
+.radio-buttons input {
+    margin-right: 5px;
+}
+
+.submit-button {
+    display: block;
+    margin: 24px 16px;
+}
+
+select {
+    margin-left: 12px;
+}
